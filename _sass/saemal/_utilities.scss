@@ -6,9 +6,11 @@ body, header, .sidebar, .main-content, footer{
 
 /* 링크 색상 설정 */
 a {
-    color: $font-color; /* 링크의 색상을 파란색으로 설정합니다 */
+    color: $font-color;
+    text-decoration: none;
 }
   
 a:visited {
-    color: $icon-color; /* 방문한 링크의 색상을 보라색으로 설정합니다 */
+    color: $font-color;
+    text-decoration: none;
 }

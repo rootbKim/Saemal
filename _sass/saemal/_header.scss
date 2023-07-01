@@ -2,16 +2,17 @@
 header {
     display: flex;
     flex-direction: row;
-    gap: 10px 15px;
+    gap: 1px;
     background-color: $secondary-color;
-    height: 30px;
-    padding: 10px;
+    height: 50px;
     width: 100%; /* 헤더의 너비를 100%로 설정합니다 */
     border-bottom: 2px solid $line-color;
 }
   
 /* 헤더 내부 링크 스타일 */
 header a {
+    margin-top: 10px;
+    margin-left: 10px;
     color: $font-color; /* 텍스트 색상을 원하는 색상으로 변경합니다 */
     text-decoration: none;
     font-size: 28px;

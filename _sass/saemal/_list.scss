@@ -1,0 +1,50 @@
+.list-basic {
+    margin-top: 2.0rem;
+
+    .list-title {
+        margin-bottom: 1.8rem;
+        border-bottom: 5px solid $line-color;
+        font-family: 'SBAggroB';
+        font-size: 1.8rem;
+        padding-top: 0.8rem;
+        padding-left: 0.3rem;
+    }
+
+    .list-featured {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 2rem;
+    }
+
+    #list-single {
+        padding: 1.2rem;
+        border-radius: 0.7rem;
+        min-height: 20rem;
+        display: flex;
+        line-height: 1.3;
+        
+        .list-element-text {
+            
+            margin-top: auto;
+            padding: 0 10px 10px;
+
+            .list-element-category {
+                color: $font-color;
+                font-size: 1rem;
+            }
+            .list-element-title {
+                color: $font-color;
+                font-size: 2rem;
+            }
+            .list-element-date {
+                color: $font-color;
+                font-size: 1rem;
+            }
+            .list-element-excerpt {
+                color: $font-color;
+                font-size: 1rem;
+            }
+        }
+    }
+}
