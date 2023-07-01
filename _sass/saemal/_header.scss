@@ -3,20 +3,21 @@ header {
     display: flex;
     flex-direction: row;
     gap: 10px 15px;
-    background-color: $primary-color;
+    background-color: $secondary-color;
     height: 30px;
     padding: 10px;
     width: 100%; /* 헤더의 너비를 100%로 설정합니다 */
+    border-bottom: 2px solid $line-color;
 }
   
 /* 헤더 내부 링크 스타일 */
 header a {
-    color: #fff; /* 텍스트 색상을 원하는 색상으로 변경합니다 */
+    color: $font-color; /* 텍스트 색상을 원하는 색상으로 변경합니다 */
     text-decoration: none;
     font-size: 28px;
 }
   
 /* 헤더 내부 링크 마우스 호버 스타일 */
 header a:hover {
-    color: #f0f0f0; /* 호버 시 텍스트 색상 변경 */
+    color: $font-color; /* 호버 시 텍스트 색상 변경 */
 }

@@ -3,15 +3,16 @@
 	box-sizing: border-box;
 	position: fixed;
     height: 100%;
-	background-color: $tertiary-color;
-    width: 250px;
+	background-color: $secondary-color;
+    width: 270px;
 	margin: 0;	
-	top: 43px;
-    left: -250px; /* 사이드바가 왼쪽으로 숨겨져 있도록 설정합니다 */
-	border-right: 1px solid transparent;
+	top: 50px;
+    left: -270px; /* 사이드바가 왼쪽으로 숨겨져 있도록 설정합니다 */
     transition: left 0.3s ease;
     z-index: 5;
-
+    border-right: 2px solid $line-color;
+    border-top: 2px solid $line-color;
+    border-bottom: 2px solid $line-color;
 }
   
 /* 사이드바가 열릴 때(.active)의 스타일 */
