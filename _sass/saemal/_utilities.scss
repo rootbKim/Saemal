@@ -1,0 +1,5 @@
+/* 전체 body와 모든 요소의 외부 여백과 내부 여백을 제거합니다 */
+body, header, .sidebar, .main-content{
+    margin: 0;
+    padding: 0;
+}
